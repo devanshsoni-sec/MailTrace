@@ -1,0 +1,17 @@
+Email SHA-256:
+4D57534EEB97D11E8D63595DFFB222512666E69923C56F55215AF9FC817C4FD6
+
+Attachment:
+csWuYjyqO2IR.pdf
+
+Attachment SHA-256:
+cfc5fbc759dcc599c8329dd94f9364394c7b1e875d6ff515c7337e00fb1f30cf
+
+Attachment Size:
+97566 bytes
+
+Attachment Type:
+application/pdf
+
+Magic Bytes:
+%PDF-1.4

@@ -1,0 +1,17 @@
+VirusTotal Hash Lookup
+
+SHA-256:
+cfc5fbc759dcc599c8329dd94f9364394c7b1e875d6ff515c7337e00fb1f30cf
+
+Detection Result:
+23 / 63 vendors detected the file as malicious or suspicious
+
+Source:
+VirusTotal
+
+Lookup Method:
+SHA-256 hash lookup
+
+Evidence:
+virustotal-detection.png
+virustotal-vendors.png

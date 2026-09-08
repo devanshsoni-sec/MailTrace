@@ -1,0 +1,9 @@
+Case ID,IOC Type,IOC Value,Context,Confidence
+PH-002,File SHA-256,cfc5fbc759dcc599c8329dd94f9364394c7b1e875d6ff515c7337e00fb1f30cf,Malicious PDF attachment,Confirmed
+PH-002,Domain,ookokoaksoa[.]z13[.]web[.]core[.]windows[.]net,Destination embedded in malicious PDF,High
+PH-002,URL,hxxps://ookokoaksoa[.]z13[.]web[.]core[.]windows[.]net/,Destination embedded in malicious PDF,High
+PH-003,Email Address,ceo.johnson@yourcompany-corp.net,Spoofed executive sender identity,High
+PH-003,Email Address,ceo.johnson@gmail.com,External Reply-To address used in BEC attempt,High
+PH-004,Domain,files[.]delivrto[.]me,QR-decoded phishing destination,High
+PH-004,URL,hxxps://files[.]delivrto[.]me/login/microsoft[.]html,QR-decoded phishing destination,High
+PH-005,File SHA-256,d8d3780b9e751673deb6e91c9a91919bc205d17d8cb0c6c8d53389ce588dac01,Original malicious Sneaky 2FA email artifact,Confirmed

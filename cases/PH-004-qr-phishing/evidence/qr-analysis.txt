@@ -1,0 +1,18 @@
+PH-004 QR Analysis
+
+QR image:
+qr-code.png
+
+Decoded URL:
+https://files.delivrto.me/login/microsoft.html
+
+Defanged URL:
+hxxps://files[.]delivrto[.]me/login/microsoft[.]html
+
+Analysis status:
+URL decoded successfully from the embedded QR image.
+
+Safety:
+The decoded URL was not opened or accessed during analysis.
+
+QR image SHA-256: 20F8027FE1CB074BFB77D9E9DB7CE8C74EE09867CC94750A008CA9AADA7C44DC

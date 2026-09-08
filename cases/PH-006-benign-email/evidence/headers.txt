@@ -1,0 +1,19 @@
+PH-006 Email Headers
+
+Return-Path: <priya.nair@victim-corp.com>
+Received: from mail.victim-corp.com (mail.victim-corp.com [203.0.113.25])
+	by mx.victim-corp.com (Postfix) with ESMTPS id A55E2C0C03
+	for <jane.doe@victim-corp.com>; Mon, 22 Jun 2026 11:27:34 -0400 (EDT)
+Authentication-Results: mx.victim-corp.com;
+	spf=pass (sender IP is 203.0.113.25) smtp.mailfrom=victim-corp.com;
+	dkim=pass (signature verified) header.d=victim-corp.com;
+	dmarc=pass (p=reject) header.from=victim-corp.com
+From: Priya Nair <priya.nair@victim-corp.com>
+Reply-To: Priya Nair <priya.nair@victim-corp.com>
+To: Jane Doe <jane.doe@victim-corp.com>
+Cc: Design Team <design-team@victim-corp.com>
+Subject: Notes from today's roadmap sync + next steps
+Date: Mon, 22 Jun 2026 11:27:30 -0400 (EDT)
+Message-ID: <a91f2c4e-2026-roadmap@victim-corp.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"

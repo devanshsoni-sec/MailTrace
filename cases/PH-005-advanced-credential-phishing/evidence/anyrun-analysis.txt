@@ -1,0 +1,52 @@
+PH-005 ANY.RUN Analysis Evidence
+
+Source:
+ANY.RUN public analysis report
+
+Original artifact:
+original (11).eml
+
+SHA-256:
+D8D3780B9E751673DEB6E91C9A91919BC205D17D8CB0C6C8D53389CE588DAC01
+
+MIME:
+message/rfc822
+
+Verdict:
+Malicious activity
+
+Threat:
+Sneaky 2FA
+
+Analysis date:
+13 March 2026
+
+Relevant tags:
+sneaky2fa
+oauth-ms-phish
+phishing
+phishing-ml
+possible-phishing
+fingerprinting
+attachments
+attc-eml
+susp-attachments
+
+Observed sandbox findings:
+Phishing was detected by machine-learning analysis.
+Phishing was detected by Suricata.
+Sneaky 2FA phishing kit activity was detected.
+An email pattern was detected in a URL fragment.
+WebGL fingerprinting activity was detected.
+The analysis showed Microsoft Edge activity associated with the phishing workflow.
+
+Evidence interpretation:
+The sandbox evidence supports classification of the artifact as an advanced Microsoft 365 credential and access phishing case involving an Adversary-in-the-Middle style Sneaky 2FA phishing kit.
+
+Limitations:
+The original email artifact was not directly obtained from the public analysis interface.
+Credential submission, successful authentication, session theft, or account compromise are not independently confirmed from the available artifact evidence.
+The analysis report is treated as external enrichment evidence rather than as a substitute for the original email.
+
+Source report:
+https://any.run/report/d8d3780b9e751673deb6e91c9a91919bc205d17d8cb0c6c8d53389ce588dac01/9fb87c75-4238-456a-acca-cd9e0dba5cec

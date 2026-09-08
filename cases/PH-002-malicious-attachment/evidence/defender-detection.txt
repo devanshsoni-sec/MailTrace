@@ -1,0 +1,19 @@
+Microsoft Defender Detection
+
+Threat ID:
+2147954759
+
+Threat Name:
+Trojan:PDF/Phish!atmn
+
+Did Threat Execute:
+False
+
+Is Active:
+False
+
+Severity ID:
+5
+
+Detection Action:
+The malicious PDF attachment was automatically removed by Microsoft Defender.

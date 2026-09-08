@@ -1,0 +1,15 @@
+# MailTrace public repository exclusions
+
+*.eml
+*.msg
+*.pst
+*.ost
+*.pdf
+*.exe
+*.dll
+*.scr
+*.zip
+*.7z
+*.rar
+
+cases/PH-004-qr-phishing/evidence/qr-code.png
