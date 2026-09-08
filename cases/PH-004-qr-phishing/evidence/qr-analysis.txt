@@ -4,7 +4,7 @@ QR image:
 qr-code.png
 
 Decoded URL:
-https://files.delivrto.me/login/microsoft.html
+hxxps://files[.]delivrto[.]me/login/microsoft[.]html
 
 Defanged URL:
 hxxps://files[.]delivrto[.]me/login/microsoft[.]html
