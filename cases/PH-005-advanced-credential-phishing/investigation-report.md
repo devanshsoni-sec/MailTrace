@@ -10,7 +10,7 @@
 | Severity | High |
 | Evidence Source | Public ANY.RUN analysis of original email artifact |
 | Original Artifact | `original (11).eml` |
-| User Interaction | Observed in sandbox analysis |
+| User Interaction | Sandbox browser activity observed; real user interaction not established |
 | Credential Submission | Not independently confirmed from available evidence |
 | Account Compromise | Not independently confirmed |
 | Analysis Platform | ANY.RUN |
@@ -176,6 +176,16 @@ Potential detection signals include:
 ## MITRE ATT&CK
 
 No ATT&CK technique is assigned to this case because the available public analysis does not provide sufficient direct evidence from the original email artifact to support a specific technique mapping.
+
+## Analyst Reasoning
+
+The available evidence supports an advanced credential and access phishing assessment based on the external sandbox findings. The analysis identifies phishing behavior and Sneaky 2FA characteristics, but the raw email artifact and endpoint or mailbox telemetry were not available for independent validation. No conclusion is made about credential submission, token theft, account compromise, or successful user interaction.
+
+## Evidence Classification
+
+- **OBSERVED:** Findings reported by the external sandbox analysis.
+- **ENRICHED:** External ANY.RUN analysis and associated verdict and tags.
+- **INFERRED:** Advanced credential and access phishing assessment based on the available evidence.
 
 ## Evidence References
 
