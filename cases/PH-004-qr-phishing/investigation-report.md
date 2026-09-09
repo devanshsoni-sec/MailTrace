@@ -8,6 +8,7 @@
 | Case Type | QR Code Phishing |
 | Initial Verdict | Malicious |
 | Severity | High |
+| Provenance | Constructed laboratory scenario with synthetic header infrastructure; destination domain overlaps known security-testing infrastructure |
 | Evidence Source | Provided email artifact and embedded QR image |
 | User Interaction | Unknown |
 | Credential Submission | Not confirmed |
@@ -89,9 +90,9 @@ No redirect chain, page content, credential harvesting event, or successful auth
 
 ## Threat Intelligence Enrichment
 
-No external threat intelligence enrichment was required to establish the primary verdict because the email artifact and decoded QR destination provide sufficient evidence of a QR-based phishing attempt.
+External enrichment identified `delivrto.me` as infrastructure used by delivr.to for security-control testing and payload delivery. Because the artifact contains synthetic-looking laboratory indicators and the available evidence does not establish whether this specific payload was an authorized test, the destination is not treated as confirmed malicious infrastructure.
 
-No external reputation result is claimed in this case.
+The decoded destination remains relevant to the phishing technique assessment, but infrastructure reputation is treated separately from the message-level disposition.
 
 ## User Interaction
 
@@ -168,7 +169,7 @@ The phishing assessment is based on the observed QR code, the decoded destinatio
 ## Evidence Classification
 
 - **OBSERVED:** QR code, decoded destination, sender identity, message headers, and lure context present in the case evidence.
-- **ENRICHED:** None.
+- **ENRICHED:** delivr.to documentation identifying `delivrto.me` as security-testing payload infrastructure.
 - **INFERRED:** QR-based credential phishing disposition based on the totality of the available evidence.
 
 ## Evidence References
