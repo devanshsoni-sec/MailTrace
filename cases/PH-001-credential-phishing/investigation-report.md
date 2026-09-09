@@ -81,6 +81,8 @@ This domain does not correspond to the claimed Proton Mail identity.
 
 The Received headers also show delivery involving infrastructure associated with:
 
+Received headers are read from the bottom of the chain toward the top to reconstruct the message path. In this artifact, the observed path indicates the message entered through infrastructure associated with the sender environment before being relayed onward. This is treated as an observed mail path, not as proof of infrastructure ownership or attacker attribution.
+
 `vps.vps.medimovil.com.mx`
 
 and the source IP:
