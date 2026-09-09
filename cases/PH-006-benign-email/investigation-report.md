@@ -8,6 +8,7 @@
 | Case Type | Benign Email / False Positive |
 | Initial Verdict | Benign |
 | Severity | Informational |
+| Provenance | Constructed laboratory scenario |
 | Evidence Source | Provided email artifact |
 | User Interaction | Unknown |
 | Account Compromise | Not indicated |
@@ -163,8 +164,19 @@ These signals can help analysts distinguish legitimate business communication fr
 
 No ATT&CK technique is assigned because the available evidence does not indicate malicious activity.
 
+
+## Analyst Reasoning
+
+The benign assessment is based on the observed sender and Reply-To alignment, passing SPF, DKIM, and DMARC results, normal business context, absence of suspicious links or attachments, and absence of malicious indicators in the available artifact. The evidence does not support escalation, compromise, or malicious intent.
+
+## Evidence Classification
+
+- **OBSERVED:** Sender alignment, authentication results, message content, and lack of suspicious delivery mechanisms in the case artifact.
+- **ENRICHED:** No external enrichment was required to reach the disposition.
+- **INFERRED:** Benign / false positive disposition based on the totality of the available evidence.
+
 ## Evidence References
 
-1. `sample.eml`
+1. Original `sample.eml` retained in the local forensic workspace; the raw artifact is intentionally excluded from the public repository.
 2. `evidence/headers.txt`
 3. `evidence/hashes.txt`
