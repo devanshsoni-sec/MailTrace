@@ -61,7 +61,7 @@ The claimed sender identity is:
 
 The sender address does not correspond to the Proton Mail brand presented in the display name.
 
-The available authentication evidence therefore does not support the claimed Proton Mail identity.
+The authentication results do not support the claimed Proton Mail identity. SPF returned tempfail, indicating a temporary evaluation failure rather than an SPF authorization denial. DMARC returned none, so no DMARC policy was applied to the message. These results are considered alongside the sender-domain mismatch, header anomalies, and phishing destination.
 
 ## Header Divergence
 
