@@ -289,10 +289,20 @@ Evidence:
 
 The message contains `csWuYjyqO2IR.pdf`, which was detected by Microsoft Defender as `Trojan:PDF/Phish!atmn`.
 
+## Analyst Reasoning
+
+The malicious attachment assessment is supported by the observed PDF attachment, its hash, the embedded external URL, and the Microsoft Defender detection. VirusTotal provides independent enrichment that further supports the assessment. No conclusion is made about user interaction, execution, credential submission, or compromise because those events were not established by the available evidence.
+
+## Evidence Classification
+
+- **OBSERVED:** PDF attachment metadata, SHA-256, and embedded URL from the email artifact.
+- **ENRICHED:** Microsoft Defender detection and VirusTotal vendor results.
+- **INFERRED:** Malicious attachment disposition based on the totality of the available evidence.
+
 ## 18. Evidence References
 
 Original Email:
-`sample.eml`
+the original `sample.eml` retained in the local forensic workspace
 
 Email SHA 256:
 `4D57534EEB97D11E8D63595DFFB222512666E69923C56F55215AF9FC817C4FD6`
