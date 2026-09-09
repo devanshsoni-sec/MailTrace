@@ -160,9 +160,20 @@ Potential detection signals include:
 
 The QR code provides a link-based phishing mechanism intended to direct the victim to an external authentication path.
 
+
+## Analyst Reasoning
+
+The phishing assessment is based on the observed QR code, the decoded destination, the Microsoft themed lure, and the credential harvesting path identified in the available evidence. The sender uses an `onmicrosoft.com` namespace, but that namespace alone does not establish sender legitimacy or message trustworthiness. The destination and social engineering context are therefore assessed together rather than treating the Microsoft namespace as a trust signal.
+
+## Evidence Classification
+
+- **OBSERVED:** QR code, decoded destination, sender identity, message headers, and lure context present in the case evidence.
+- **ENRICHED:** External analysis of the decoded destination documented in the case evidence, where applicable.
+- **INFERRED:** QR based credential phishing disposition based on the totality of the available evidence.
+
 ## Evidence References
 
-1. `sample.eml`
+1. Original `sample.eml` retained in the local forensic workspace; the raw artifact is intentionally excluded from the public repository.
 2. `evidence/headers.txt`
 3. `evidence/qr-code.png`
 4. `evidence/qr-analysis.txt`
