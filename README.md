@@ -190,6 +190,10 @@ Malicious URLs and domains are defanged for public documentation.
 
 Benign indicators are not treated as malicious IOCs.
 
+## Public Artifact Handling
+
+Raw email artifacts are intentionally excluded from the public repository.
+
 ## Repository Structure
 
 ```text
@@ -199,26 +203,22 @@ MailTrace/
 │   └── PHISHING-TRIAGE-SOP.md
 ├── cases/
 │   ├── PH-001-credential-phishing/
-│   │   ├── sample.eml
 │   │   ├── investigation-report.md
 │   │   └── evidence/
 │   ├── PH-002-malicious-attachment/
-│   │   ├── sample.eml
 │   │   ├── investigation-report.md
 │   │   └── evidence/
 │   ├── PH-003-bec-impersonation/
-│   │   ├── sample.eml
 │   │   ├── investigation-report.md
 │   │   └── evidence/
 │   ├── PH-004-qr-phishing/
-│   │   ├── sample.eml
 │   │   ├── investigation-report.md
 │   │   └── evidence/
 │   ├── PH-005-advanced-credential-phishing/
 │   │   ├── investigation-report.md
 │   │   └── evidence/
 │   └── PH-006-benign-email/
-│       ├── sample.eml
+│       └── evidence/
 │       ├── investigation-report.md
 │       └── evidence/
 ├── iocs/
