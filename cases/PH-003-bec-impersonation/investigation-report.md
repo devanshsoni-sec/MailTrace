@@ -8,6 +8,7 @@
 | Case Type | Business Email Compromise / Executive Impersonation |
 | Initial Verdict | Malicious |
 | Severity | High |
+| Provenance | Constructed laboratory scenario |
 | Evidence Source | Provided email artifact |
 | User Interaction | Unknown |
 | Account Compromise | Not confirmed |
@@ -139,10 +140,21 @@ Potential detection signals include:
 
 No ATT&CK technique is assigned to this case because the provided artifact does not contain sufficient evidence to support a specific technique mapping.
 
+
+## Analyst Reasoning
+
+The BEC assessment is based on the executive impersonation context, From and Reply-To divergence, failed email authentication results, urgency, and payment request present in the constructed laboratory scenario. The evidence supports a social engineering and payment fraud attempt without establishing successful user interaction, financial loss, or account compromise.
+
+## Evidence Classification
+
+- **OBSERVED:** Sender identity, Reply-To divergence, authentication results, and payment request represented in the case artifact.
+- **ENRICHED:** External supporting analysis documented in the case evidence, where applicable.
+- **INFERRED:** BEC and executive impersonation assessment based on the totality of the available evidence.
+
 ## Evidence References
 
-1. `sample.eml`
-2. Authentication-Results header contained in `sample.eml`
-3. From / Reply-To divergence contained in `sample.eml`
-4. Payment request and business context contained in `sample.eml`
+1. Original `sample.eml` retained in the local forensic workspace; the raw artifact is intentionally excluded from the public repository.
+2. Authentication-Results header contained in the original local artifact.
+3. From / Reply-To divergence contained in the original local artifact.
+4. Payment request and business context contained in the original local artifact.
 5. `evidence/hashes.txt`
