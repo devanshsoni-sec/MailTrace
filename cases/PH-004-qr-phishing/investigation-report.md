@@ -168,8 +168,8 @@ The phishing assessment is based on the observed QR code, the decoded destinatio
 ## Evidence Classification
 
 - **OBSERVED:** QR code, decoded destination, sender identity, message headers, and lure context present in the case evidence.
-- **ENRICHED:** External analysis of the decoded destination documented in the case evidence, where applicable.
-- **INFERRED:** QR based credential phishing disposition based on the totality of the available evidence.
+- **ENRICHED:** None.
+- **INFERRED:** QR-based credential phishing disposition based on the totality of the available evidence.
 
 ## Evidence References
 

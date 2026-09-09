@@ -147,8 +147,8 @@ The BEC assessment is based on the executive impersonation context, From and Rep
 
 ## Evidence Classification
 
-- **OBSERVED:** Sender identity, Reply-To divergence, authentication results, and payment request represented in the case artifact.
-- **ENRICHED:** External supporting analysis documented in the case evidence, where applicable.
+- **OBSERVED:** Sender identity, Reply-To divergence, authentication results, and payment request represented in the constructed laboratory scenario.
+- **ENRICHED:** None.
 - **INFERRED:** BEC and executive impersonation assessment based on the totality of the available evidence.
 
 ## Evidence References

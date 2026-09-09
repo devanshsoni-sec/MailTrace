@@ -197,7 +197,7 @@ The phishing assessment is based on the observed sender identity, authentication
 ## Evidence Classification
 
 - **OBSERVED:** Sender identity, authentication results, Received headers, and phishing URL present in the original artifact.
-- **ENRICHED:** External reputation or analysis results documented in the case evidence.
+- **ENRICHED:** None.
 - **INFERRED:** Credential phishing verdict and associated risk assessment.
 
 ## Evidence References

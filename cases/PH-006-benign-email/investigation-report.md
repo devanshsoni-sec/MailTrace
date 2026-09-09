@@ -171,8 +171,8 @@ The benign assessment is based on the observed sender and Reply-To alignment, pa
 
 ## Evidence Classification
 
-- **OBSERVED:** Sender alignment, authentication results, message content, and lack of suspicious delivery mechanisms in the case artifact.
-- **ENRICHED:** No external enrichment was required to reach the disposition.
+- **OBSERVED:** Sender alignment, authentication results, message content, and lack of suspicious delivery mechanisms in the constructed laboratory scenario.
+- **ENRICHED:** None.
 - **INFERRED:** Benign / false positive disposition based on the totality of the available evidence.
 
 ## Evidence References

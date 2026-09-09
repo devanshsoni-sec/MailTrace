@@ -183,8 +183,8 @@ The available evidence supports an advanced credential and access phishing asses
 
 ## Evidence Classification
 
-- **OBSERVED:** Findings reported by the external sandbox analysis.
-- **ENRICHED:** External ANY.RUN analysis and associated verdict and tags.
+- **OBSERVED:** No raw email artifact was directly available for independent inspection.
+- **ENRICHED:** External ANY.RUN analysis, including reported phishing activity and Sneaky 2FA findings.
 - **INFERRED:** Advanced credential and access phishing assessment based on the available evidence.
 
 ## Evidence References
