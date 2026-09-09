@@ -188,9 +188,19 @@ Potential detection signals include:
 
 The email contains a malicious link designed to direct the recipient toward a credential phishing destination.
 
+## Analyst Reasoning
+
+The phishing assessment is based on the observed sender identity, authentication results, message path, and credential harvesting URL present in the original email artifact. DMARC returned **none** and SPF returned **tempfail**, while DKIM and ARC were not present. These values are authentication observations rather than standalone verdicts; the malicious assessment is based on the totality of the evidence.
+
+## Evidence Classification
+
+- **OBSERVED:** Sender identity, authentication results, Received headers, and phishing URL present in the original artifact.
+- **ENRICHED:** External reputation or analysis results documented in the case evidence.
+- **INFERRED:** Credential phishing verdict and associated risk assessment.
+
 ## Evidence References
 
-1. `sample.eml`
+1. Original `sample.eml` retained in the local forensic workspace; the raw artifact is intentionally excluded from the public repository.
 2. `evidence/headers.txt`
 3. `evidence/hashes.txt`
 4. Observed phishing URL extracted from the HTML body
